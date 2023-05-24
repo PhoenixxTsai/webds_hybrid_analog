@@ -94,7 +94,7 @@ export const TutorInputRailRange = (props: IProps) => {
           fontSize: 12
         }}
       >
-        The rail distance is the buffer setup to avoid clipping. Do not touch
+        Set the rail distance to avoid clipping. This value should be set such that the expected signal + noise does not clip. At minimum the distance should be greater than the noise level of the system. Do not touch
         the sensor, and press "Next" button to check current setting.
       </Typography>
       <Stack alignItems="center" sx={{ m: 2 }}>
